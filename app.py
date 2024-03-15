@@ -67,5 +67,6 @@ def index():
     return render_template("index.html", butshow=butshow, butedit=butedit,\
                                code=code,name=name,dob=dob,salary=salary)
 
+#oi
 if __name__ == '__main__':
     app.run()
